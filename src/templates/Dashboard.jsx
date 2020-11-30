@@ -71,7 +71,7 @@ const Dashboard = (props) => (
             label="Dashboard"
           />
           <MenuItem
-            href="/dashboard/billingCycle"
+            href="/dashboard/billing-cycle"
             icon={{ prefix: "fas", name: "hand-holding-usd" }}
             label="Billing Cycle"
           />
