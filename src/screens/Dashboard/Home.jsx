@@ -1,12 +1,7 @@
 import React from "react";
 
-import TemplatesDashboard from '../../templates/Dashboard'
 import DashboardHome from "../../components/Dashboard/Home";
 
-const ScreensDashboardHome = () => (
-  <TemplatesDashboard>
-    <DashboardHome />
-  </TemplatesDashboard>
-);
+const ScreensDashboardHome = () => <DashboardHome />;
 
 export default ScreensDashboardHome;
