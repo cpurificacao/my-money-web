@@ -16,3 +16,5 @@ const ScreensDashboardRoutes = (props) => {
     </Switch>
   );
 };
+
+export default ScreensDashboardRoutes;
