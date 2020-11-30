@@ -7,3 +7,5 @@ const App = () => (
     <ScreensRoutes />
   </div>
 );
+
+export default App;
