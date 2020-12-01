@@ -1,8 +1,11 @@
 import React from "react";
 
+import ContentHeader from "./ContentHeader";
+
 const ScreensDashboardHome = () => (
   <div>
-    <h1>Home</h1>
+    <ContentHeader title="Dashboard" subtitle="Version 1.0.0" />
+    <section className="content">Dashboard</section>
   </div>
 );
 

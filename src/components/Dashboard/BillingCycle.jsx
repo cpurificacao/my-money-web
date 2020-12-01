@@ -1,8 +1,11 @@
 import React from "react";
 
+import ContentHeader from "./ContentHeader";
+
 const ScreensDashboardBillingCycle = () => (
   <div>
-    <h1>Billing Cycle</h1>
+    <ContentHeader title="Billing Cycle" subtitle="Version 1.0.0" />
+    <section className="content">Billing Cycle</section>
   </div>
 );
 
