@@ -11,6 +11,9 @@ import {
   faMoneyBillWave,
   faTachometerAlt,
   faHandHoldingUsd,
+  faWallet,
+  faCreditCard,
+  faFunnelDollar,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -21,7 +24,10 @@ library.add(
   faCopyright,
   faMoneyBillWave,
   faTachometerAlt,
-  faHandHoldingUsd
+  faHandHoldingUsd,
+  faWallet,
+  faCreditCard,
+  faFunnelDollar
 );
 
 const Icon = ({ prefix, name, ...props }) => (
